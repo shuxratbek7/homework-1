@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: url("./loop/Tofane-Mountain-Range_Dolomites-banner-960x600.jpg") center/cover no-repeat;
+    margin: 0;
+}
+
+:root {
+    --color: white;
+    --background: black;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    backdrop-filter: blur(4px);
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: var(--color);
+    width: 350px;
+    height: 350px;
+    transition: 0.4s ease;
+}
+
+.login-box:hover {
+    transform: scale(1.05);
+}
+
+.login-box form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 130px;
+}   
+
+.login-box h2 {
+    color: var(--color);
+    font-size: 35px;
+    font-weight: bold;
+}
+
+input {
+    border: none;
+    border-radius: 20px;
+    height: 15px;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px skyblue;
+}
+
+input:focus {
+    outline: 0.5px solid dodgerblue;
+}
+
+.login {
+    padding: 5px 15px;
+    border-radius: 30px;
+    border: 0px;
+    cursor: pointer;
+    background-color: var(--background);
+    color: white;
+    font-size: 18px;
+    opacity: 0.5;
+    transition: transform 0.7s ease, box-shadow 0.7s ease;
+    height: 30px;
+    width: 100px;
+}
+
+.login:hover {
+    box-shadow: 0 0 15px skyblue inset;
+    transition: 0.5s;
+    opacity: 1;
+    transform: scale(1.18);
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
