@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url("./loop/15.\ Облака.jpg") center/cover no-repeat;
+    margin: 0;
+    padding-top: 250px;
+}
+:root{
+    --color:red;
+    --laylo:#ffbc7d;
+    --bule:#fff;
+    --red: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;l
+}
+
+.box {
+    margin: auto; 
+    width: 500px;
+    height: 260px;
+    border-radius: 12px;
+    background-attachment: fixed;
+    backdrop-filter: blur(4px);
+    transition: 0.4s ease;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.box b {
+    font-size: 21px;
+    color: var(--laylo);
+   margin-left: 70px;
+}
+
+.box1 {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.box1-l{
+    width: 80%;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.button1{
+    width: 150px;
+    height: 28px;
+    margin-left: 50%;
+    border-radius: 12px;
+    background-color: var(--red);
+    border: solid 1px var(--bule);
+    color: bisque;
+}
+
+.box1-l label{
+    color: #fff;
+    margin-top: 2px;
+}
+
+.box1-l input{
+    border: none;
+    border-radius: 6px;
+    height: 80%;
+    margin-top: 3px;
+    background-color: var(--red);
+    text-align: center;
+    color: bisque;
+}
+
+.box p {
+    margin-top: 40px;
+    color: #fff;
+}
+
